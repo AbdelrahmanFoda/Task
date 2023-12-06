@@ -36,7 +36,7 @@
             @Test
             public void register1 () {
                 AutomationExercisSignUpPage.ClickonSignupLoginbutton();
-                AutomationExercisSignUpPage.Enternameandemailaddress("Abdddepaahmyyan", "foyyydohhpaAeda52@gmail.com");
+                AutomationExercisSignUpPage.Enternameandemailaddress("Abdddeaaamyyan", "foyyyggheda52@gmail.com");
                 AutomationExercisSignUpPage.ClickOnSignupButton();
                 AutomationExerciseInfoPage.assertOnValidationMsg("ENTER ACCOUNT INFORMATION");
                 AutomationExerciseInfoPage.FillInformationDetails("55454454545",
