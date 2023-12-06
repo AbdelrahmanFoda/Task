@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 public class AutomationExerciseInfoPage {
     private WebDriver driver;
-    private By ValidationMessage= By.xpath("(//h2//b)[1]");
+    private By ValidationMessage= By.xpath("//h2[@class='title text-center']//b");
     private By GenderType= By.id("id_gender1");
     private By password= By.id("password");
     private By days= By.id("days");
@@ -26,7 +26,7 @@ public class AutomationExerciseInfoPage {
     private  By ZipCode= By.id("zipcode");
     private  By MobileNumber= By.id("mobile_number");
     private  By CreateAccountbutton= By.xpath("//button[@data-qa=\"create-account\"]");
-    private  By Sucmsg= By.xpath("(//h2/b)");
+    private  By Sucmsg= By.xpath("//h2[@class='title text-center']//b");
     public AutomationExerciseInfoPage(WebDriver driver) {
         this.driver = driver;
     }
