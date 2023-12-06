@@ -50,4 +50,4 @@ jobs:
 
       - name: Run Tests
         continue-on-error: true
-        run: mvn test -DbrowserType="firefox" -DheadlessExecution="true"  -Dtest="testngsteps.java""
+        run: mvn test -DbrowserType="firefox" -DheadlessExecution="true"  -Dtest="testngsteps.java"
