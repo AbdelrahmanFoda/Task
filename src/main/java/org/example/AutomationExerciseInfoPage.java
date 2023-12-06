@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 public class AutomationExerciseInfoPage {
     private WebDriver driver;
-    private By ValidationMessage= By.xpath("(//h2/b)[1]");
+    private By ValidationMessage= By.xpath("/html/body/section/div/div/div/div[1]/h2/b");
     private By GenderType= By.id("id_gender1");
     private By password= By.id("password");
     private By days= By.id("days");
